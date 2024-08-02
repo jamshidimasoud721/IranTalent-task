@@ -1,0 +1,52 @@
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .multiselect {
+    width: 15%;
+  }
+  
+  .selectBox {
+    position: relative;
+    border: 1px solid #A7A7A7;
+    border-radius: 20px;
+    padding: 8px 4px 8px 8px;
+  }
+  
+  
+  .selectBox select {
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .fa-angle-down {
+    position: absolute;
+    right: 10px;
+    color: #000;
+    font-size: 22px;
+    vertical-align: middle;
+    font-weight: 800;
+  }
+  
+  .badge {
+    background-color: #fff;
+    color: #1e90ff;
+    padding: 4px 8px;
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    font-weight: 700;
+    top: 5px;
+    right: 30px;
+  }
+  
+  .bg-blue {
+    background-color: #41a1ff;
+    border-color: transparent;
+    color: #fff;
+  }
+  .color-white{
+    color: #fff;
+  }

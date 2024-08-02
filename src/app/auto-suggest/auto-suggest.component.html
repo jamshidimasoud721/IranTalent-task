@@ -1,0 +1,9 @@
+<div  class="checkboxes">
+    <input type="text" placeholder="Search Industry" class="search" [(ngModel)]="searchTerm"
+        (input)="search(searchTerm)">
+    <label><input type="checkbox" [(ngModel)]="checkedAll" (change)="getAll($event)" />All</label>
+    <div *ngFor="let item of coins | searchFilter: searchTerm; index as i">
+        <label><input type="checkbox" [value]="item.name" [(ngModel)]="checkedAll"
+                (change)="getValue($event)"/>{{item.name}}</label>
+    </div>
+</div>

@@ -1,0 +1,48 @@
+.checkboxes {
+    width: 400px;
+    height: 200px;
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 5px 5px 5px -5px #A7A7A7, -5px 5px 5px -5px #A7A7A7, 5px 5px 5px -5px #A7A7A7;
+    overflow-y: scroll;
+  }
+  
+  .checkboxes::-webkit-scrollbar-track {
+    border-radius: 10px;
+  }
+  
+  .checkboxes::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .checkboxes::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #e3dede;
+    height: 90px;
+  }
+  
+  .checkboxes label {
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  .checkboxes label input {
+    margin-right: 8px;
+  }
+  
+  .checkboxes label:hover {
+    background-color: #1e90ff;
+  }
+
+  .search {
+    width: 90%;
+    border: 1px solid #A7A7A7;
+    margin-bottom: 8px;
+    padding: 8px 4px;
+    border-radius: 4px;
+  }
+
+  .search:active {
+    border-color: #A7A7A7;
+  }

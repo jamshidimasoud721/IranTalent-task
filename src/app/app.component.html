@@ -1,0 +1,12 @@
+<p class="title">{{title}}</p>
+<div class="multiselect">
+    <div class="selectBox" (click)="show()" [ngClass]="list.length ? 'bg-blue' : ''">
+        <span *ngIf="!list.length || list.length !==1">Industry</span>
+        <span *ngFor="let item of list">
+            <span *ngIf="list.length===1">{{item}}</span>
+        </span>
+        <span *ngIf="list.length > 1" class="badge">{{list.length}}</span>
+        <i class="fa fa-angle-down" [ngClass]="list.length ? 'color-white' : ''"></i>
+    </div>
+    <app-auto-suggest *ngIf="expanded" (childData)="list=$event"></app-auto-suggest>
+</div>
